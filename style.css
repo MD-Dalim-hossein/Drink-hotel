@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    padding: 10px 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 0px 25px;
+    color: whitesmoke;
+
+}
+
+.banner-section{
+    background-image: url('https://img.freepik.com/free-photo/fast-food-dish-blue_155003-27518.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704240000&semt=ais');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 91vh;
+    width: 100%;
+    padding: 10px 20px;
+}
+.banner-info{
+    width: 50%;
+    padding-top: 100px;
+    color: whitesmoke;
+}
+.banner-info h1 {
+    font-size: 60px;
+    color: whitesmoke;
+}
+.banner-info p{
+    font-size: 22px;
+    font-weight: 300;
+}
+.banner-info button, .food-detail button{
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    color: azure;
+}
+.contact{
+    margin-top: 130px;
+    color: whitesmoke;
+}
+
+
+.foodmenu-section{
+    background-color: black;
+    padding: 30px 20px;
+}
+span{
+    color: rgb(97, 66, 126);
+}
+.food-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.food-title{
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.food{
+    color: whitesmoke;
+    width: 300px;
+    border: 2px solid white;
+}
+.food img{
+    width: 100%;
+    height: 200px;
+}
+.food-detail{
+    padding: 10px;
+}
+.more-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.more-item-btn{
+    height: 40px;
+    width: 250px;
+    background: transparent;
+    color: rgb(97, 66, 126);
+    border: 2px solid rgb(97, 66, 126);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.322);
+    text-align: center;
+    padding: 30px;
+}
